@@ -5,21 +5,15 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Header from './common/Header';
 
 function App() {
     return (
-        <Router>
-          <div>
-            <Routes>
-              <Route path="/about" element={<About />} />
-                
-              <Route path="/topics" element={<Topics />} />
-                
-              <Route path="/" element={<Home />}/>
-                
-            </Routes>
-          </div>
-        </Router>
-    );
+            <Router>
+              <Routes>
+                <Route path="/" element={<Header />}/>
+              </Routes>
+            </Router>
+          );
 }
 export default App;
