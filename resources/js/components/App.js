@@ -5,13 +5,13 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Header from './common/Header';
+import HomePage from './HomePage';
 
 function App() {
     return (
             <Router>
               <Routes>
-                <Route path="/" element={<Header />}/>
+                <Route path="/" element={<HomePage />}/>
               </Routes>
             </Router>
           );

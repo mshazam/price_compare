@@ -1,10 +1,4 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
-    "/css/owl.theme.default.min.css": "/css/owl.theme.default.min.css",
-    "/css/owl.carousel.min.css": "/css/owl.carousel.min.css",
-    "/css/font-awesome.min.css": "/css/font-awesome.min.css",
-    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
-    "/css/megamenu.css": "/css/megamenu.css",
-    "/css/animate.min.css": "/css/animate.min.css"
+    "/css/app.css": "/css/app.css"
 }
